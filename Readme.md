@@ -8,7 +8,6 @@ Mode: Online/ Microsoft Teams<br>
 ## Class notes will be shared after a week :-)
 
 
-## Click the link below:
 
 <h1><a href="https://courses.vinod.co/">Learn with Vinod</a></h1>
 
