@@ -1,9 +1,12 @@
 # PL/SQL
 
-Client: ABB<br>
+Client: Epsilon<br>
 Duration: 4 full days<br>
 From: 5th October 2020<br>
 Mode: Online/ Microsoft Teams<br>
+
+## Class notes will be shared after a week :-)
+
 
 ## Click the link below:
 
