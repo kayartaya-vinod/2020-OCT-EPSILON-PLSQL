@@ -2772,4 +2772,27 @@ FROM EMPLOYEES ORDER BY SALARY DESC FETCH NEXT 5 ROWS ONLY);
 SELECT * FROM EMPLOYEES ORDER BY SALARY DESC
 OFFSET 4 ROWS FETCH NEXT 1 ROWS ONLY;
 
+
+-- PIVOT EXAMPLE
+
+create table people (name varchar(20),
+profession varchar(20));
+
+insert into people values ('Vinod', 'Trainer');
+insert into people values ('Phaniraj', 'Trainer');
+insert into people values ('Ram', 'Trainer');
+insert into people values ('Amitab', 'Actor');
+insert into people values ('Dr.Raj', 'Actor');
+insert into people values ('SPB', 'Singer');
+insert into people values ('PBS', 'Singer');
+insert into people values ('Kishore', 'Singer');
+
+select * from (
+    select name, profession from people
+) pivot (
+    count(profession)
+    for profession in ('Trainer', 'Actor', 'Singer')
+)
+
+
 </pre>
